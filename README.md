@@ -1,6 +1,8 @@
 # basic-express-api
 Basic Express Api
 
+https://jinalshahblog.wordpress.com/2016/10/06/rest-api-using-node-js-and-mysql/
+
 Initialise npm project
 > npm init -y
 
@@ -74,3 +76,5 @@ PUT  http://localhost:3000/Tasks/6
 
 DELETE http://localhost:3000/Tasks/1
 
+Middleware
+Middleware functions are executed once per request in the order they are attached. In both Express and Restify, these middleware are added via the use method. Both frameworks come packaged with common middleware that handle several of the aforementioned concerns. In application specific cases you can easily provide your own middleware functions to accomplish common behavior.
